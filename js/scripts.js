@@ -8,6 +8,6 @@ $(document).ready(function() {
         nAr.push(input);
       }
     });
-    alert(nAr);
+    $(".output").text((nAr.reverse().join(" ")));
   });
 });
